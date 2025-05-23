@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "genie.wiskehelper.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"SampleFromY50Up",
+		"UniformPackJump"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
