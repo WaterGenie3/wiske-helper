@@ -2,6 +2,8 @@
 
 Ad-hoc mod to help test wither skeleton spawning.
 
+This tool is now superceded by [`spawn-forcer`](https://github.com/WaterGenie3/spawn-forcer).
+
 - y level samples uniformly from 50 to heightmap + 1 instead of world bottom to heightmap + 1.
   - If heightmap < 50, it always pick heightmap + 1
   - This is just to speed up the spawning in hope of speeding up testing for small differences.
